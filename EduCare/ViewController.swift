@@ -1,0 +1,20 @@
+//
+//  ViewController.swift
+//  EduCare
+//
+//  Created by Sejal Kanikaram on 7/31/20.
+//  Copyright © 2020 Sejal Kanikaram. All rights reserved.
+//
+
+import UIKit
+
+class ViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+    }
+
+
+}
+
