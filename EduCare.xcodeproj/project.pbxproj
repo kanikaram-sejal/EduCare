@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E12C72D3E715BEC3BFB17EA /* libPods-EduCare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAAD1CF3F9DC96A07D358011 /* libPods-EduCare.a */; };
 		A320EBC224D4A91B00737CCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A320EBC124D4A91B00737CCE /* AppDelegate.swift */; };
 		A320EBC424D4A91B00737CCE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A320EBC324D4A91B00737CCE /* SceneDelegate.swift */; };
 		A320EBC624D4A91B00737CCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A320EBC524D4A91B00737CCE /* ViewController.swift */; };
@@ -15,6 +16,10 @@
 		A320EBCE24D4A91C00737CCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A320EBCC24D4A91C00737CCE /* LaunchScreen.storyboard */; };
 		A320EBD924D4A91C00737CCE /* EduCareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A320EBD824D4A91C00737CCE /* EduCareTests.swift */; };
 		A320EBE424D4A91C00737CCE /* EduCareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A320EBE324D4A91C00737CCE /* EduCareUITests.swift */; };
+		A32D826224D5BCDE004EC51A /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32D826124D5BCDE004EC51A /* SignUpVC.swift */; };
+		A32D826424D5BFFA004EC51A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A32D826324D5BFFA004EC51A /* GoogleService-Info.plist */; };
+		CDC8C690CAF1AA984B666611 /* libPods-EduCareTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD54C92606F511BE800A3946 /* libPods-EduCareTests.a */; };
+		E9A1A3E62B8B271CE4FE7682 /* libPods-EduCare-EduCareUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE82976B17BD1BBF0F80513D /* libPods-EduCare-EduCareUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00767A82BF5C54D2803E7492 /* Pods-EduCare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EduCare.release.xcconfig"; path = "Target Support Files/Pods-EduCare/Pods-EduCare.release.xcconfig"; sourceTree = "<group>"; };
+		5EB9855AD6BBB4587AB8A5B8 /* Pods-EduCare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EduCare.debug.xcconfig"; path = "Target Support Files/Pods-EduCare/Pods-EduCare.debug.xcconfig"; sourceTree = "<group>"; };
+		5F069E6F1D059FEB5526EF23 /* Pods-EduCare-EduCareUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EduCare-EduCareUITests.debug.xcconfig"; path = "Target Support Files/Pods-EduCare-EduCareUITests/Pods-EduCare-EduCareUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		662BAA60B62DA09EBBA25251 /* Pods-EduCare-EduCareUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EduCare-EduCareUITests.release.xcconfig"; path = "Target Support Files/Pods-EduCare-EduCareUITests/Pods-EduCare-EduCareUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7D390D4B729C484F811E3371 /* Pods-EduCareTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EduCareTests.debug.xcconfig"; path = "Target Support Files/Pods-EduCareTests/Pods-EduCareTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A320EBBE24D4A91B00737CCE /* EduCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EduCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A320EBC124D4A91B00737CCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A320EBC324D4A91B00737CCE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +59,12 @@
 		A320EBDF24D4A91C00737CCE /* EduCareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EduCareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A320EBE324D4A91C00737CCE /* EduCareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EduCareUITests.swift; sourceTree = "<group>"; };
 		A320EBE524D4A91C00737CCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A32D826124D5BCDE004EC51A /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		A32D826324D5BFFA004EC51A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AAAD1CF3F9DC96A07D358011 /* libPods-EduCare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EduCare.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE82976B17BD1BBF0F80513D /* libPods-EduCare-EduCareUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EduCare-EduCareUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0F9E25EF7B0B89898FBCC92 /* Pods-EduCareTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EduCareTests.release.xcconfig"; path = "Target Support Files/Pods-EduCareTests/Pods-EduCareTests.release.xcconfig"; sourceTree = "<group>"; };
+		FD54C92606F511BE800A3946 /* libPods-EduCareTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EduCareTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E12C72D3E715BEC3BFB17EA /* libPods-EduCare.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDC8C690CAF1AA984B666611 /* libPods-EduCareTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +88,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9A1A3E62B8B271CE4FE7682 /* libPods-EduCare-EduCareUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04C8E1820F550E092B054704 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5EB9855AD6BBB4587AB8A5B8 /* Pods-EduCare.debug.xcconfig */,
+				00767A82BF5C54D2803E7492 /* Pods-EduCare.release.xcconfig */,
+				5F069E6F1D059FEB5526EF23 /* Pods-EduCare-EduCareUITests.debug.xcconfig */,
+				662BAA60B62DA09EBBA25251 /* Pods-EduCare-EduCareUITests.release.xcconfig */,
+				7D390D4B729C484F811E3371 /* Pods-EduCareTests.debug.xcconfig */,
+				F0F9E25EF7B0B89898FBCC92 /* Pods-EduCareTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A320EBB524D4A91B00737CCE = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +116,8 @@
 				A320EBD724D4A91C00737CCE /* EduCareTests */,
 				A320EBE224D4A91C00737CCE /* EduCareUITests */,
 				A320EBBF24D4A91B00737CCE /* Products */,
+				04C8E1820F550E092B054704 /* Pods */,
+				A372E7A650D5BF16E7FEB55D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +136,13 @@
 			children = (
 				A320EBC124D4A91B00737CCE /* AppDelegate.swift */,
 				A320EBC324D4A91B00737CCE /* SceneDelegate.swift */,
+				A32D826124D5BCDE004EC51A /* SignUpVC.swift */,
 				A320EBC524D4A91B00737CCE /* ViewController.swift */,
 				A320EBC724D4A91B00737CCE /* Main.storyboard */,
 				A320EBCA24D4A91C00737CCE /* Assets.xcassets */,
 				A320EBCC24D4A91C00737CCE /* LaunchScreen.storyboard */,
 				A320EBCF24D4A91C00737CCE /* Info.plist */,
+				A32D826324D5BFFA004EC51A /* GoogleService-Info.plist */,
 			);
 			path = EduCare;
 			sourceTree = "<group>";
@@ -128,6 +165,16 @@
 			path = EduCareUITests;
 			sourceTree = "<group>";
 		};
+		A372E7A650D5BF16E7FEB55D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAAD1CF3F9DC96A07D358011 /* libPods-EduCare.a */,
+				BE82976B17BD1BBF0F80513D /* libPods-EduCare-EduCareUITests.a */,
+				FD54C92606F511BE800A3946 /* libPods-EduCareTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +182,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A320EBE824D4A91C00737CCE /* Build configuration list for PBXNativeTarget "EduCare" */;
 			buildPhases = (
+				AD4EB6141C974C8F42462D37 /* [CP] Check Pods Manifest.lock */,
 				A320EBBA24D4A91B00737CCE /* Sources */,
 				A320EBBB24D4A91B00737CCE /* Frameworks */,
 				A320EBBC24D4A91B00737CCE /* Resources */,
@@ -152,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A320EBEB24D4A91C00737CCE /* Build configuration list for PBXNativeTarget "EduCareTests" */;
 			buildPhases = (
+				4E2CFFF67B6D12DAAEF1CC83 /* [CP] Check Pods Manifest.lock */,
 				A320EBD024D4A91C00737CCE /* Sources */,
 				A320EBD124D4A91C00737CCE /* Frameworks */,
 				A320EBD224D4A91C00737CCE /* Resources */,
@@ -170,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A320EBEE24D4A91C00737CCE /* Build configuration list for PBXNativeTarget "EduCareUITests" */;
 			buildPhases = (
+				009C26771DE5190A08030533 /* [CP] Check Pods Manifest.lock */,
 				A320EBDB24D4A91C00737CCE /* Sources */,
 				A320EBDC24D4A91C00737CCE /* Frameworks */,
 				A320EBDD24D4A91C00737CCE /* Resources */,
@@ -233,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A320EBCE24D4A91C00737CCE /* LaunchScreen.storyboard in Resources */,
+				A32D826424D5BFFA004EC51A /* GoogleService-Info.plist in Resources */,
 				A320EBCB24D4A91C00737CCE /* Assets.xcassets in Resources */,
 				A320EBC924D4A91B00737CCE /* Main.storyboard in Resources */,
 			);
@@ -254,11 +305,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		009C26771DE5190A08030533 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EduCare-EduCareUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E2CFFF67B6D12DAAEF1CC83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EduCareTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD4EB6141C974C8F42462D37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EduCare-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A320EBBA24D4A91B00737CCE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A32D826224D5BCDE004EC51A /* SignUpVC.swift in Sources */,
 				A320EBC624D4A91B00737CCE /* ViewController.swift in Sources */,
 				A320EBC224D4A91B00737CCE /* AppDelegate.swift in Sources */,
 				A320EBC424D4A91B00737CCE /* SceneDelegate.swift in Sources */,
@@ -432,6 +553,7 @@
 		};
 		A320EBE924D4A91C00737CCE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EB9855AD6BBB4587AB8A5B8 /* Pods-EduCare.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +572,7 @@
 		};
 		A320EBEA24D4A91C00737CCE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00767A82BF5C54D2803E7492 /* Pods-EduCare.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +591,7 @@
 		};
 		A320EBEC24D4A91C00737CCE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D390D4B729C484F811E3371 /* Pods-EduCareTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +614,7 @@
 		};
 		A320EBED24D4A91C00737CCE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0F9E25EF7B0B89898FBCC92 /* Pods-EduCareTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +637,7 @@
 		};
 		A320EBEF24D4A91C00737CCE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F069E6F1D059FEB5526EF23 /* Pods-EduCare-EduCareUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +658,7 @@
 		};
 		A320EBF024D4A91C00737CCE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 662BAA60B62DA09EBBA25251 /* Pods-EduCare-EduCareUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
