@@ -9,6 +9,7 @@ target 'EduCare' do
   pod 'Firebase/Core'
   pod 'Firebase/Database'
   pod 'Firebase/Analytics'
+  pod 'Firebase/Auth'
 
   target 'EduCareTests' do
     inherit! :search_paths
