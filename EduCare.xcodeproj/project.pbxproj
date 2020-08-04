@@ -12,12 +12,19 @@
 		A320EBC424D4A91B00737CCE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A320EBC324D4A91B00737CCE /* SceneDelegate.swift */; };
 		A320EBC624D4A91B00737CCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A320EBC524D4A91B00737CCE /* ViewController.swift */; };
 		A320EBC924D4A91B00737CCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A320EBC724D4A91B00737CCE /* Main.storyboard */; };
-		A320EBCB24D4A91C00737CCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A320EBCA24D4A91C00737CCE /* Assets.xcassets */; };
 		A320EBCE24D4A91C00737CCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A320EBCC24D4A91C00737CCE /* LaunchScreen.storyboard */; };
 		A320EBD924D4A91C00737CCE /* EduCareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A320EBD824D4A91C00737CCE /* EduCareTests.swift */; };
 		A320EBE424D4A91C00737CCE /* EduCareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A320EBE324D4A91C00737CCE /* EduCareUITests.swift */; };
 		A32D826224D5BCDE004EC51A /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32D826124D5BCDE004EC51A /* SignUpVC.swift */; };
 		A32D826424D5BFFA004EC51A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A32D826324D5BFFA004EC51A /* GoogleService-Info.plist */; };
+		A348598224D89B9F009CA530 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A348598124D89B9F009CA530 /* Assets.xcassets */; };
+		A348598424D8F4E9009CA530 /* ProfileSVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A348598324D8F4E9009CA530 /* ProfileSVC.swift */; };
+		A348598624D8F4FA009CA530 /* ProfileEVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A348598524D8F4FA009CA530 /* ProfileEVC.swift */; };
+		A348598824D8F50F009CA530 /* SettingsSVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A348598724D8F50F009CA530 /* SettingsSVC.swift */; };
+		A348598A24D8F521009CA530 /* SettingsEVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A348598924D8F521009CA530 /* SettingsEVC.swift */; };
+		A348598C24D8F542009CA530 /* SearchSVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A348598B24D8F542009CA530 /* SearchSVC.swift */; };
+		A348599024D8F589009CA530 /* ClassesEVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A348598F24D8F589009CA530 /* ClassesEVC.swift */; };
+		A348599624D8F669009CA530 /* AddClassVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A348599524D8F669009CA530 /* AddClassVC.swift */; };
 		CDC8C690CAF1AA984B666611 /* libPods-EduCareTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD54C92606F511BE800A3946 /* libPods-EduCareTests.a */; };
 		E9A1A3E62B8B271CE4FE7682 /* libPods-EduCare-EduCareUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE82976B17BD1BBF0F80513D /* libPods-EduCare-EduCareUITests.a */; };
 /* End PBXBuildFile section */
@@ -50,7 +57,6 @@
 		A320EBC324D4A91B00737CCE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A320EBC524D4A91B00737CCE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A320EBC824D4A91B00737CCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A320EBCA24D4A91C00737CCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A320EBCD24D4A91C00737CCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A320EBCF24D4A91C00737CCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A320EBD424D4A91C00737CCE /* EduCareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EduCareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +67,14 @@
 		A320EBE524D4A91C00737CCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A32D826124D5BCDE004EC51A /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		A32D826324D5BFFA004EC51A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A348598124D89B9F009CA530 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A348598324D8F4E9009CA530 /* ProfileSVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSVC.swift; sourceTree = "<group>"; };
+		A348598524D8F4FA009CA530 /* ProfileEVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEVC.swift; sourceTree = "<group>"; };
+		A348598724D8F50F009CA530 /* SettingsSVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSVC.swift; sourceTree = "<group>"; };
+		A348598924D8F521009CA530 /* SettingsEVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsEVC.swift; sourceTree = "<group>"; };
+		A348598B24D8F542009CA530 /* SearchSVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSVC.swift; sourceTree = "<group>"; };
+		A348598F24D8F589009CA530 /* ClassesEVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesEVC.swift; sourceTree = "<group>"; };
+		A348599524D8F669009CA530 /* AddClassVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddClassVC.swift; sourceTree = "<group>"; };
 		AAAD1CF3F9DC96A07D358011 /* libPods-EduCare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EduCare.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE82976B17BD1BBF0F80513D /* libPods-EduCare-EduCareUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EduCare-EduCareUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0F9E25EF7B0B89898FBCC92 /* Pods-EduCareTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EduCareTests.release.xcconfig"; path = "Target Support Files/Pods-EduCareTests/Pods-EduCareTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -105,7 +119,6 @@
 				7D390D4B729C484F811E3371 /* Pods-EduCareTests.debug.xcconfig */,
 				F0F9E25EF7B0B89898FBCC92 /* Pods-EduCareTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -137,11 +150,18 @@
 				A320EBC124D4A91B00737CCE /* AppDelegate.swift */,
 				A320EBC324D4A91B00737CCE /* SceneDelegate.swift */,
 				A32D826124D5BCDE004EC51A /* SignUpVC.swift */,
+				A348598124D89B9F009CA530 /* Assets.xcassets */,
 				A320EBC524D4A91B00737CCE /* ViewController.swift */,
 				A320EBC724D4A91B00737CCE /* Main.storyboard */,
-				A320EBCA24D4A91C00737CCE /* Assets.xcassets */,
 				A320EBCC24D4A91C00737CCE /* LaunchScreen.storyboard */,
 				A320EBCF24D4A91C00737CCE /* Info.plist */,
+				A348598524D8F4FA009CA530 /* ProfileEVC.swift */,
+				A348598924D8F521009CA530 /* SettingsEVC.swift */,
+				A348598B24D8F542009CA530 /* SearchSVC.swift */,
+				A348598F24D8F589009CA530 /* ClassesEVC.swift */,
+				A348598724D8F50F009CA530 /* SettingsSVC.swift */,
+				A348598324D8F4E9009CA530 /* ProfileSVC.swift */,
+				A348599524D8F669009CA530 /* AddClassVC.swift */,
 				A32D826324D5BFFA004EC51A /* GoogleService-Info.plist */,
 			);
 			path = EduCare;
@@ -284,7 +304,7 @@
 			files = (
 				A320EBCE24D4A91C00737CCE /* LaunchScreen.storyboard in Resources */,
 				A32D826424D5BFFA004EC51A /* GoogleService-Info.plist in Resources */,
-				A320EBCB24D4A91C00737CCE /* Assets.xcassets in Resources */,
+				A348598224D89B9F009CA530 /* Assets.xcassets in Resources */,
 				A320EBC924D4A91B00737CCE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,10 +399,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A348598624D8F4FA009CA530 /* ProfileEVC.swift in Sources */,
 				A32D826224D5BCDE004EC51A /* SignUpVC.swift in Sources */,
+				A348598424D8F4E9009CA530 /* ProfileSVC.swift in Sources */,
 				A320EBC624D4A91B00737CCE /* ViewController.swift in Sources */,
+				A348599024D8F589009CA530 /* ClassesEVC.swift in Sources */,
 				A320EBC224D4A91B00737CCE /* AppDelegate.swift in Sources */,
+				A348598C24D8F542009CA530 /* SearchSVC.swift in Sources */,
 				A320EBC424D4A91B00737CCE /* SceneDelegate.swift in Sources */,
+				A348598824D8F50F009CA530 /* SettingsSVC.swift in Sources */,
+				A348599624D8F669009CA530 /* AddClassVC.swift in Sources */,
+				A348598A24D8F521009CA530 /* SettingsEVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
